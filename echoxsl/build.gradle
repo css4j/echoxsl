@@ -1,0 +1,26 @@
+plugins {
+	id 'echoxsl.java-conventions'
+}
+
+description = 'echoxsl'
+
+dependencies {
+	api project(':serializer')
+	implementation "xerces:xercesImpl:${xercesVersion}"
+	implementation "org.apache.bcel:bcel:${bcelVersion}"
+	implementation "edu.princeton.cup:java-cup:${javacupVersion}"
+	testImplementation "junit:junit:${junitVersion}"
+	testImplementation "com.github.jtidy:jtidy:${jtidyVersion}"
+	testImplementation 'org.apache.ant:ant:1.10.12'
+}
+
+jar {
+	// Remove this once Xerces is fixed and a module-info can be used
+    manifest {
+      attributes('Automatic-Module-Name': 'com.github.css4j.echoxsl')
+    }
+}
+
+publishing.publications.maven(MavenPublication).pom {
+	description = 'EchoXSL, a fork of Xalan'
+}
