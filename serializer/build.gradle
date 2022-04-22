@@ -4,10 +4,6 @@ plugins {
 
 description = 'echoxsl-serializer'
 
-dependencies {
-	implementation "xerces:xercesImpl:${xercesVersion}"
-}
-
 jar {
 	// Remove this once Xerces is fixed and a module-info can be used
     manifest {

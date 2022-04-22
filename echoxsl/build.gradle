@@ -4,11 +4,18 @@ plugins {
 
 description = 'echoxsl'
 
+java {
+	// XSLT Compiler
+	registerFeature('xsltc') {
+		usingSourceSet(sourceSets.main)
+	}
+}
+
 dependencies {
 	api project(':serializer')
 	implementation "xerces:xercesImpl:${xercesVersion}"
-	implementation "org.apache.bcel:bcel:${bcelVersion}"
-	implementation "edu.princeton.cup:java-cup:${javacupVersion}"
+	xsltcImplementation "org.apache.bcel:bcel:${bcelVersion}"
+	xsltcImplementation "edu.princeton.cup:java-cup:${javacupVersion}"
 	testImplementation "junit:junit:${junitVersion}"
 	testImplementation "com.github.jtidy:jtidy:${jtidyVersion}"
 	testImplementation 'org.apache.ant:ant:1.10.12'

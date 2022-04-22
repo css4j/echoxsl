@@ -63,6 +63,7 @@ publishing {
 	publications {
 		maven(MavenPublication) {
 			from(components.java)
+			suppressAllPomMetadataWarnings()
 			pom {
 				url = "https://github.com/css4j/echoxsl/"
 				licenses {
