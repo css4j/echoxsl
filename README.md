@@ -21,8 +21,11 @@ To build EchoXSL you should have the following software installed:
 - The [Git version control system](https://git-scm.com/downloads) is required to
 obtain the sources. Any recent version should suffice.
 
-- Java 7 or later. You can install it from your favourite package manager or by
-downloading from [Adoptium](https://adoptium.net/).
+- Java 8 or later. You can install it from your favourite package manager or by
+downloading from [Adoptium](https://adoptium.net/). If you do not install Java,
+the build script shall download and install one anyway.
+
+_Note_: the resulting _jar_ packages can be run with Java 7 or later.
 
 <br/>
 
@@ -36,6 +39,12 @@ cd echoxsl
 ./gradlew build
 ```
 or just `gradlew build` (without the `./`) on a Windows command prompt.
+
+Look under the `build` directory for the build outputs.
+
+**IMPORTANT**: The packages under the `org.apache` hierarchy exclusively contain
+code coming from ASF (Apache) source repositories, however _this is not an ASF
+project_.
 
 <br/>
 
