@@ -22,8 +22,7 @@ To build EchoXSL you should have the following software installed:
 obtain the sources. Any recent version should suffice.
 
 - Java 8 or later. You can install it from your favourite package manager or by
-downloading from [Adoptium](https://adoptium.net/). If you do not install Java,
-the build script shall download and install one anyway.
+downloading from [Adoptium](https://adoptium.net/).
 
 _Note_: the resulting _jar_ packages can be run with Java 7 or later.
 
