@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 /*
- * $Id: TransformWrapper.java 470101 2006-11-01 21:03:00Z minchau $
+ * $Id$
  */
 package org.apache.qetest.xslwrapper;
 
@@ -50,7 +50,7 @@ import org.apache.qetest.Configurable;
  * while updating to this new class.
  * 
  * @author Shane Curcuru
- * @version $Id: TransformWrapper.java 470101 2006-11-01 21:03:00Z minchau $
+ * @version $Id$
  */
 public interface TransformWrapper extends Configurable
 {

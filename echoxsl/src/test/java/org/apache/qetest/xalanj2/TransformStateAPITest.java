@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 /*
- * $Id: TransformStateAPITest.java 470101 2006-11-01 21:03:00Z minchau $
+ * $Id$
  */
 
 /*
@@ -67,7 +67,7 @@ import org.xml.sax.SAXException;
  * keyed off of the ContentHandler event and the line/column 
  * information of the pertinent element or template. 
  * @author shane_curcuru@lotus.com
- * @version $Id: TransformStateAPITest.java 470101 2006-11-01 21:03:00Z minchau $
+ * @version $Id$
  */
 public class TransformStateAPITest extends FileBasedTest
         implements ContentHandler, TransformerClient

@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 /*
- * $Id: OutputSettingsTest.java 470101 2006-11-01 21:03:00Z minchau $
+ * $Id$
  */
 
 /*
@@ -52,7 +52,7 @@ import org.apache.qetest.xsl.XSLTestfileInfo;
  * use-url-escaping, and omit-meta-tag.
  * 
  * @author shane_curcuru@lotus.com
- * @version $Id: OutputSettingsTest.java 470101 2006-11-01 21:03:00Z minchau $
+ * @version $Id$
  */
 public class OutputSettingsTest extends FileBasedTest
 {

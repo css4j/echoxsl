@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 /*
- * $Id: TestletImpl.java 470101 2006-11-01 21:03:00Z minchau $
+ * $Id$
  */
 
 /*
@@ -46,7 +46,7 @@ package org.apache.qetest;
  * See comments for thisClassName.
  * 
  * @author Shane_Curcuru@lotus.com
- * @version $Id: TestletImpl.java 470101 2006-11-01 21:03:00Z minchau $
+ * @version $Id$
  */
 public class TestletImpl implements Testlet
 {

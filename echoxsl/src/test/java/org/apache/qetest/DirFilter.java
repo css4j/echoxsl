@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 /*
- * $Id: DirFilter.java 470101 2006-11-01 21:03:00Z minchau $
+ * $Id$
  */
 package org.apache.qetest;
 
@@ -28,7 +28,7 @@ import java.io.File;
  * <p>Returns directories that match our includes/excludes.</p>
  *
  * @author shane_curcuru@us.ibm.com
- * @version $Id: DirFilter.java 470101 2006-11-01 21:03:00Z minchau $
+ * @version $Id$
  */
 public class DirFilter extends IncludeExcludeFilter
 {

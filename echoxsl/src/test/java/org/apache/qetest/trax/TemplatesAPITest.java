@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 /*
- * $Id: TemplatesAPITest.java 470101 2006-11-01 21:03:00Z minchau $
+ * $Id$
  */
 
 /*

@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 /*
- * $Id: PerfEverythingTestlet.java 470101 2006-11-01 21:03:00Z minchau $
+ * $Id$
  */
 
 /*
@@ -48,7 +48,7 @@ import org.apache.qetest.xslwrapper.TransformWrapperFactory;
  * purposes, we really need to do it all here.
  *
  * @author Shane_Curcuru@lotus.com
- * @version $Id: PerfEverythingTestlet.java 470101 2006-11-01 21:03:00Z minchau $
+ * @version $Id$
  */
 public class PerfEverythingTestlet extends TestletImpl
 {

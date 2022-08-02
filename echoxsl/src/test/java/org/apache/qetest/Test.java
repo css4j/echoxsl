@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 /*
- * $Id: Test.java 470101 2006-11-01 21:03:00Z minchau $
+ * $Id$
  */
 
 /*
@@ -34,7 +34,7 @@ import java.util.Properties;
  * implementation makes it simpler for external harnesses or
  * automation methods to handle lists of Tests.
  * @author Shane_Curcuru@lotus.com
- * @version $Id: Test.java 470101 2006-11-01 21:03:00Z minchau $
+ * @version $Id$
  */
 public interface Test
 {

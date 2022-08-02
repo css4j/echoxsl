@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 /*
- * $Id: ConformanceXSLFileRules.java 470101 2006-11-01 21:03:00Z minchau $
+ * $Id$
  */
 package org.apache.qetest.xsl;
 
@@ -31,7 +31,7 @@ import java.util.StringTokenizer;
  * Copied from ConformanceFileRules, used for ad-hoc testing 
  * where you don't want to rename files to match dir names.
  * @author shane_curcuru@lotus.com
- * @version $Id: ConformanceXSLFileRules.java 470101 2006-11-01 21:03:00Z minchau $
+ * @version $Id$
  */
 public class ConformanceXSLFileRules implements FilenameFilter
 {

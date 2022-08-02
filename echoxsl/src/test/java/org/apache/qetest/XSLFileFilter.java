@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 /*
- * $Id: XSLFileFilter.java 470101 2006-11-01 21:03:00Z minchau $
+ * $Id$
  */
 package org.apache.qetest;
 
@@ -25,7 +25,7 @@ package org.apache.qetest;
  * that match *.xsl.
  *
  * @author shane_curcuru@us.ibm.com
- * @version $Id: XSLFileFilter.java 470101 2006-11-01 21:03:00Z minchau $
+ * @version $Id$
  */
 public class XSLFileFilter extends FilePatternFilter
 {

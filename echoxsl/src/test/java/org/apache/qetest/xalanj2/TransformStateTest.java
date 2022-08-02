@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 /*
- * $Id: TransformStateTest.java 470101 2006-11-01 21:03:00Z minchau $
+ * $Id$
  */
 
 /*
@@ -43,7 +43,7 @@ import org.apache.qetest.Logger;
  * read in a list of TransformStateDatalets somehow.
  * 
  * @author shane_curcuru@lotus.com
- * @version $Id: TransformStateTest.java 470101 2006-11-01 21:03:00Z minchau $
+ * @version $Id$
  */
 public class TransformStateTest extends FileBasedTest
 {

@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 /*
- * $Id: BugzillaFileRules.java 470101 2006-11-01 21:03:00Z minchau $
+ * $Id$
  */
 package org.apache.qetest.xsl;
 
@@ -30,7 +30,7 @@ import java.util.StringTokenizer;
  * Has crude support for an excludes list of filename bases.
  * @see #accept(File, String)
  * @author shane_curcuru@lotus.com
- * @version $Id: BugzillaFileRules.java 470101 2006-11-01 21:03:00Z minchau $
+ * @version $Id$
  */
 public class BugzillaFileRules implements FilenameFilter
 {

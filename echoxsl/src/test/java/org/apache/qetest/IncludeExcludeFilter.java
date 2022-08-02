@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 /*
- * $Id: IncludeExcludeFilter.java 470101 2006-11-01 21:03:00Z minchau $
+ * $Id$
  */
 package org.apache.qetest;
 
@@ -39,7 +39,7 @@ import java.util.StringTokenizer;
  * appropriate time in handling the includes/excludes.</p>
  * 
  * @author shane_curcuru@us.ibm.com
- * @version $Id: IncludeExcludeFilter.java 470101 2006-11-01 21:03:00Z minchau $
+ * @version $Id$
  */
 public class IncludeExcludeFilter implements FilenameFilter
 {

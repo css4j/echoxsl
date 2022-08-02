@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 /*
- * $Id: ExecTestlet.java 470101 2006-11-01 21:03:00Z minchau $
+ * $Id$
  */
 
 package org.apache.qetest;
@@ -37,7 +37,7 @@ import java.util.Hashtable;
  * just construct a class and call main().
  *
  * @author Shane_Curcuru@us.ibm.com
- * @version $Id: ExecTestlet.java 470101 2006-11-01 21:03:00Z minchau $
+ * @version $Id$
  */
 public abstract class ExecTestlet extends FileTestlet
 {

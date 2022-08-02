@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 /*
- * $Id: StylesheetDriver.java 470101 2006-11-01 21:03:00Z minchau $
+ * $Id$
  */
 
 package org.apache.qetest.xsl;
@@ -36,7 +36,7 @@ import org.apache.qetest.xslwrapper.TransformWrapperFactory;
  * parameters but still supporting all the normal testing options.
  *
  * @author shane_curcuru@us.ibm.com
- * @version $Id: StylesheetDriver.java 470101 2006-11-01 21:03:00Z minchau $
+ * @version $Id$
  */
 public class StylesheetDriver extends StylesheetTestletDriver
 {

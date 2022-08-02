@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 /*
- * $Id: Minitest.java 470101 2006-11-01 21:03:00Z minchau $
+ * $Id$
  */
 
 package org.apache.qetest.trax;
@@ -66,7 +66,7 @@ import org.apache.qetest.xslwrapper.TransformWrapperHelper;
  * GUMP build page</a>.</p>
  *
  * @author shane_curcuru@us.ibm.com
- * @version $Id: Minitest.java 470101 2006-11-01 21:03:00Z minchau $
+ * @version $Id$
  */
 public class Minitest extends FileBasedTest
 {

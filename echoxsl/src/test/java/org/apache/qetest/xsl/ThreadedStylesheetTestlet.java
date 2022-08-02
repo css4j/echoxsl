@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 /*
- * $Id: ThreadedStylesheetTestlet.java 470101 2006-11-01 21:03:00Z minchau $
+ * $Id$
  */
 
 /*
@@ -50,7 +50,7 @@ import org.apache.qetest.xslwrapper.TransformWrapperFactory;
  * of calling execute(). @todo find a better way to integrate!
  *
  * @author Shane_Curcuru@lotus.com
- * @version $Id: ThreadedStylesheetTestlet.java 470101 2006-11-01 21:03:00Z minchau $
+ * @version $Id$
  */
 public class ThreadedStylesheetTestlet 
         extends TestletImpl 

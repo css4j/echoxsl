@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 /*
- * $Id: XSLTestfileInfo.java 470101 2006-11-01 21:03:00Z minchau $
+ * $Id$
  */
 
 /*
@@ -46,7 +46,7 @@ import org.apache.qetest.TestfileInfo;
  * <li>options</li>
  * </ul>
  * @author Shane Curcuru
- * @version $Id: XSLTestfileInfo.java 470101 2006-11-01 21:03:00Z minchau $
+ * @version $Id$
  */
 public class XSLTestfileInfo extends TestfileInfo
 {

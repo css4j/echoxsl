@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 /*
- * $Id: LoggingPrintTraceListener.java 470101 2006-11-01 21:03:00Z minchau $
+ * $Id$
  */
 
 /*
@@ -49,7 +49,7 @@ import org.w3c.dom.traversal.NodeIterator;
  * still looking like other LoggingHandlers.
  * @author shane_curcuru@lotus.com
  * @author myriam_midy@lotus.com
- * @version $Id: LoggingPrintTraceListener.java 470101 2006-11-01 21:03:00Z minchau $
+ * @version $Id$
  */
 public class LoggingPrintTraceListener extends PrintTraceListener       
 {

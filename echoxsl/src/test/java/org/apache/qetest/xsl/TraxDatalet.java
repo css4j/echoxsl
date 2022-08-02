@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 /*
- * $Id: TraxDatalet.java 470101 2006-11-01 21:03:00Z minchau $
+ * $Id$
  */
 
 /*
@@ -50,7 +50,7 @@ import org.apache.qetest.QetestUtils;
  * package, but I'm leaving it in the xsl package for now.
  *
  * @author Shane_Curcuru@lotus.com
- * @version $Id: TraxDatalet.java 470101 2006-11-01 21:03:00Z minchau $
+ * @version $Id$
  */
 public class TraxDatalet implements Datalet
 {

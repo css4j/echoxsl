@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 /*
- * $Id: EmbeddedStylesheetTest.java 470101 2006-11-01 21:03:00Z minchau $
+ * $Id$
  */
 
 /*
@@ -52,7 +52,7 @@ import org.apache.qetest.xsl.XSLTestfileInfo;
  * the path/directory/etc. to be.
  *
  * @author shane_curcuru@lotus.com
- * @version $Id: EmbeddedStylesheetTest.java 470101 2006-11-01 21:03:00Z minchau $
+ * @version $Id$
  */
 public class EmbeddedStylesheetTest extends FileBasedTest
 {

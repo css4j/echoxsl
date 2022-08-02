@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 /*
- * $Id: XSLTestAntTask.java 470101 2006-11-01 21:03:00Z minchau $
+ * $Id$
  */
 package org.apache.qetest.xsl;
 
@@ -51,8 +51,7 @@ import java.util.Vector;
  *
  * Cheap-o (for now) way to run qetest or Xalan tests directly
  * from an Ant build file.  Current usage:
- * <code>
- * &lt;taskdef name="QetestTask" classname="org.apache.qetest.xsl.XSLTestAntTask"/>
+ * <pre>&lt;taskdef name="QetestTask" classname="org.apache.qetest.xsl.XSLTestAntTask"/>
  *  &lt;target name="test">
  *      &lt;QetestTask
  *          test="Minitest"
@@ -63,8 +62,7 @@ import java.util.Vector;
  *          outputDir="../tests/minitest"
  *          logFile="../tests/minitest/log.xml"
  *          flavor="trax"
- *       />
- * </code>
+ *       /></pre>
  * To be improved: I'd like to basically convert XSLTestHarness
  * into an Ant task, so you can run multiple tests at once.
  * Other obvious improvements include an AntLogger implementation
@@ -77,7 +75,7 @@ import java.util.Vector;
  * @author <a href="mailto:shane_curcuru@lotus.com">Shane Curcuru</a>
  * @author Stefano Mazzocchi <a href="mailto:stefano@apache.org">stefano@apache.org</a>
  * @author <a href="mailto:stefan.bodewig@epost.de">Stefan Bodewig</a>
- * @version $Id: XSLTestAntTask.java 470101 2006-11-01 21:03:00Z minchau $
+ * @version $Id$
  */
 public class XSLTestAntTask extends Task
 {
@@ -376,7 +374,7 @@ public class XSLTestAntTask extends Task
     {
         // Log out our version info: useful for debugging, since 
         //  the wrong version of this class can easily get loaded
-        log("XSLTestAntTask: $Id: XSLTestAntTask.java 470101 2006-11-01 21:03:00Z minchau $", Project.MSG_VERBOSE);
+        log("XSLTestAntTask: $Id$", Project.MSG_VERBOSE);
 
         // Call worker method to create and write prop file
         // This passes thru both default 'qetest.' properties as 

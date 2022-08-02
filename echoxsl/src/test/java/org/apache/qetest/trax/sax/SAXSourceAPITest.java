@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 /*
- * $Id: SAXSourceAPITest.java 470101 2006-11-01 21:03:00Z minchau $
+ * $Id$
  */
 
 /*
@@ -53,7 +53,7 @@ import org.xml.sax.XMLReader;
 /**
  * API Coverage test for the SAXSource class of TRAX.
  * @author shane_curcuru@lotus.com
- * @version $Id: SAXSourceAPITest.java 470101 2006-11-01 21:03:00Z minchau $
+ * @version $Id$
  */
 public class SAXSourceAPITest extends FileBasedTest
 {

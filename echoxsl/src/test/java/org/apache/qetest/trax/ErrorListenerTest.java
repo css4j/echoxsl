@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 /*
- * $Id: ErrorListenerTest.java 470101 2006-11-01 21:03:00Z minchau $
+ * $Id$
  */
 
 /*
@@ -67,7 +67,7 @@ import org.xml.sax.XMLReader;
  * investigate changing this test to just verify common things, 
  * and then check the rest into the xalanj2 directory).
  * @author shane_curcuru@lotus.com
- * @version $Id: ErrorListenerTest.java 470101 2006-11-01 21:03:00Z minchau $
+ * @version $Id$
  */
 public class ErrorListenerTest extends FileBasedTest
 {

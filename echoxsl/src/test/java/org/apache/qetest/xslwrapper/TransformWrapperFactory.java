@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 /*
- * $Id: TransformWrapperFactory.java 1346552 2012-06-05 19:50:04Z ggregory $
+ * $Id$
  */
 package org.apache.qetest.xslwrapper;
 
@@ -34,7 +34,7 @@ import org.apache.qetest.QetestUtils;
  * instance of an org.apache.qetest.xslwrapper.TraxFileWrapper.
  *
  * @author Shane Curcuru
- * @version $Id: TransformWrapperFactory.java 1346552 2012-06-05 19:50:04Z ggregory $
+ * @version $Id$
  */
 public abstract class TransformWrapperFactory
 {
@@ -130,7 +130,8 @@ public abstract class TransformWrapperFactory
                                QetestUtils.defaultPackages,
                                "Wrapper Not Found");
             
-            return (TransformWrapper) clazz.newInstance();
+            TransformWrapper wrapper = (TransformWrapper) clazz.newInstance();
+            return wrapper;
         }
         catch (Exception e)
         {

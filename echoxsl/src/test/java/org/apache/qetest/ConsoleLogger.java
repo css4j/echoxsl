@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 /*
- * $Id: ConsoleLogger.java 470101 2006-11-01 21:03:00Z minchau $
+ * $Id$
  */
 
 /*
@@ -48,7 +48,7 @@ import java.util.Properties;
  * are displayed on the screen (since most of the time users will 
  * never be watching the console in this situation).
  * @author Shane_Curcuru@lotus.com
- * @version $Id: ConsoleLogger.java 470101 2006-11-01 21:03:00Z minchau $
+ * @version $Id$
  */
 public class ConsoleLogger implements Logger
 {

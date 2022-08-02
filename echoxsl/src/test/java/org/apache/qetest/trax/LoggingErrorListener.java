@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 /*
- * $Id: LoggingErrorListener.java 470101 2006-11-01 21:03:00Z minchau $
+ * $Id$
  */
 
 /*
@@ -40,7 +40,7 @@ import org.apache.qetest.LoggingHandler;
  * as to when we should validate specific events that we handle.</p>
  * //@todo try calling getLocator() and asking it for info directly
  * @author shane_curcuru@lotus.com
- * @version $Id: LoggingErrorListener.java 470101 2006-11-01 21:03:00Z minchau $
+ * @version $Id$
  */
 public class LoggingErrorListener extends LoggingHandler implements ErrorListener
 {

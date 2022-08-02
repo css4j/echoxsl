@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 /*
- * $Id: LoggingLexicalHandler.java 470101 2006-11-01 21:03:00Z minchau $
+ * $Id$
  */
 
 /*
@@ -36,7 +36,7 @@ import org.xml.sax.ext.LexicalHandler;
  * <p>Implements LexicalHandler and dumps simplistic info 
  * everything to a Logger; a way to debug SAX stuff.</p>
  * @author shane_curcuru@lotus.com
- * @version $Id: LoggingLexicalHandler.java 470101 2006-11-01 21:03:00Z minchau $
+ * @version $Id$
  */
 public class LoggingLexicalHandler extends LoggingHandler implements LexicalHandler
 {

@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 /*
- * $Id: SystemIdImpInclTest.java 470101 2006-11-01 21:03:00Z minchau $
+ * $Id$
  */
 
 /*
@@ -72,7 +72,7 @@ import org.xml.sax.XMLReader;
  * (which will require network resources available).
  *
  * @author shane_curcuru@lotus.com
- * @version $Id: SystemIdImpInclTest.java 470101 2006-11-01 21:03:00Z minchau $
+ * @version $Id$
  */
 public class SystemIdImpInclTest extends FileBasedTest
 {

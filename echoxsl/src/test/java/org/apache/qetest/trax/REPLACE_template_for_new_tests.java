@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 /*
- * $Id: REPLACE_template_for_new_tests.java 470101 2006-11-01 21:03:00Z minchau $
+ * $Id$
  */
 
 /*
@@ -49,7 +49,7 @@ import org.apache.qetest.xsl.XSLTestfileInfo;
  * - a bunch of convenience variables/initializers are included, 
  *   use or delete as is useful
  * @author REPLACE_authorname
- * @version $Id: REPLACE_template_for_new_tests.java 470101 2006-11-01 21:03:00Z minchau $
+ * @version $Id$
  */
 public class REPLACE_template_for_new_tests extends FileBasedTest
 {

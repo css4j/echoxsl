@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 /*
- * $Id: XHTFileCheckService.java 470101 2006-11-01 21:03:00Z minchau $
+ * $Id$
  */
 
 /*
@@ -42,7 +42,7 @@ import org.apache.qetest.XMLFileLogger;
  * Uses an XML/HTML/Text diff comparator to check or diff two files.
  * @see #check(Logger logger, Object actual, Object reference, String msg, String id)
  * @author Shane_Curcuru@lotus.com
- * @version $Id: XHTFileCheckService.java 470101 2006-11-01 21:03:00Z minchau $
+ * @version $Id$
  */
 public class XHTFileCheckService implements CheckService
 {

@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 /*
- * $Id: FileTestletDriver.java 1346517 2012-06-05 18:34:47Z ggregory $
+ * $Id$
  */
 
 package org.apache.qetest;
@@ -39,7 +39,7 @@ import java.util.Vector;
  * creates a tree for outputs.</p>
  *
  * <p>Key methods are separated into worker methods so subclasses can 
- * override just the parts of the algorithm they need to change.</p>
+ * override just the parts of the algorithim they need to change.</p>
  *
  * <p>//@todo move and refactor XSLProcessorTestBase to 
  * be more generic and reduce dependencies; also reduce dependency 
@@ -47,7 +47,7 @@ import java.util.Vector;
  * our testProps object.</p>
  * 
  * @author shane_curcuru@us.ibm.com
- * @version $Id: FileTestletDriver.java 1346517 2012-06-05 18:34:47Z ggregory $
+ * @version $Id$
  */
 public class FileTestletDriver extends FileBasedTest /// extends XSLProcessorTestBase
 {

@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 /*
- * $Id: ParameterTest.java 470101 2006-11-01 21:03:00Z minchau $
+ * $Id$
  */
 
 /*
@@ -52,7 +52,7 @@ import org.apache.xml.utils.DefaultErrorHandler;
 /**
  * Functional test of various usages of parameters in transforms.
  * @author shane_curcuru@lotus.com
- * @version $Id: ParameterTest.java 470101 2006-11-01 21:03:00Z minchau $
+ * @version $Id$
  */
 public class ParameterTest extends FileBasedTest
 {

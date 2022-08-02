@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 /*
- * $Id: TemplatesHandlerAPITest.java 470101 2006-11-01 21:03:00Z minchau $
+ * $Id$
  */
 
 /*
@@ -57,7 +57,7 @@ import org.xml.sax.XMLReader;
 /**
  * API Coverage test for the TemplatesHandler class of TRAX.
  * @author shane_curcuru@lotus.com
- * @version $Id: TemplatesHandlerAPITest.java 470101 2006-11-01 21:03:00Z minchau $
+ * @version $Id$
  */
 public class TemplatesHandlerAPITest extends FileBasedTest
 {

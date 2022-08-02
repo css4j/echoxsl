@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 /*
- * $Id: XHTFileCheckServiceXSLTC.java 470101 2006-11-01 21:03:00Z minchau $
+ * $Id$
  */
 
 /*
@@ -33,7 +33,7 @@ package org.apache.qetest.xsl;
  * @see #check(Logger logger, Object actual, Object reference, String msg, String id)
  * @author Shane_Curcuru@lotus.com
  * @author Santiago.PericasGeertsen@sun.com
- * @version $Id: XHTFileCheckServiceXSLTC.java 470101 2006-11-01 21:03:00Z minchau $
+ * @version $Id$
  */
 public class XHTFileCheckServiceXSLTC extends XHTFileCheckService
 {

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1" ?>
 <!-- @(#)xslspec.xsl 1.3 99/01/11 SMI; Style Sheet for the XML and XSL Recommendations and Working Drafts; written by Eduardo Gutentag -->
-<!-- $Id: mk054.xsl 470079 2006-11-01 20:23:24Z minchau $ Hacked by James Clark -->
+<!-- $Id$ Hacked by James Clark -->
 <!DOCTYPE xsl:stylesheet [
 <!ENTITY copy   "&#169;">
 <!ENTITY nbsp   "&#160;">

@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 /*
- * $Id: XHTComparator.java 470101 2006-11-01 21:03:00Z minchau $
+ * $Id$
  */
 
 package org.apache.qetest.xsl;
@@ -70,7 +70,7 @@ import org.xml.sax.SAXParseException;
  * true namespace, instead of just the prefix)
  * @author Scott_Boag@lotus.com
  * @author Shane_Curcuru@lotus.com
- * @version $Id: XHTComparator.java 470101 2006-11-01 21:03:00Z minchau $
+ * @version $Id$
  */
 public class XHTComparator
 {

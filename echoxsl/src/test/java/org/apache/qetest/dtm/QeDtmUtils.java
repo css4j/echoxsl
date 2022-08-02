@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 /*
- * $Id: QeDtmUtils.java 470101 2006-11-01 21:03:00Z minchau $
+ * $Id$
  */
 
 
@@ -44,7 +44,7 @@ import org.apache.xpath.objects.XMLStringFactoryImpl;
  * line with a full or partial classname (in the org.apache.qetest 
  * area, obviously) and we'll load and execute that class instead.
  * @author paul_dick@us.ibm.com
- * @version $Id: QeDtmUtils.java 470101 2006-11-01 21:03:00Z minchau $
+ * @version $Id$
  */
 public abstract class QeDtmUtils
 {

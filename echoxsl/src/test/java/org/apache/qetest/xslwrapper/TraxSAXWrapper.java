@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 /*
- * $Id: TraxSAXWrapper.java 470101 2006-11-01 21:03:00Z minchau $
+ * $Id$
  */
 package org.apache.qetest.xslwrapper;
 import java.io.ByteArrayOutputStream;
@@ -55,7 +55,7 @@ import org.xml.sax.XMLReader;
  * our getProcessorInfo() method.</p>
  *
  * @author Shane Curcuru
- * @version $Id: TraxSAXWrapper.java 470101 2006-11-01 21:03:00Z minchau $
+ * @version $Id$
  */
 public class TraxSAXWrapper extends TransformWrapperHelper
 {

@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 /*
- * $Id: TraxSystemId3Wrapper.java 470101 2006-11-01 21:03:00Z minchau $
+ * $Id$
  */
 package org.apache.qetest.xslwrapper;
 import java.util.Properties;
@@ -43,7 +43,7 @@ import org.apache.qetest.QetestUtils;
  * our getProcessorInfo() method.
  * 
  * @author Shane Curcuru
- * @version $Id: TraxSystemId3Wrapper.java 470101 2006-11-01 21:03:00Z minchau $
+ * @version $Id$
  */
 public class TraxSystemId3Wrapper extends TraxSystemIdWrapper
 {

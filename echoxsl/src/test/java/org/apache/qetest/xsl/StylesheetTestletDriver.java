@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 /*
- * $Id: StylesheetTestletDriver.java 1347837 2012-06-08 00:00:03Z ggregory $
+ * $Id$
  */
 
 package org.apache.qetest.xsl;
@@ -49,7 +49,7 @@ import org.apache.qetest.xslwrapper.TransformWrapperFactory;
  * would be a good model for a completely generic TestletDriver.
  *
  * @author shane_curcuru@lotus.com
- * @version $Id: StylesheetTestletDriver.java 1347837 2012-06-08 00:00:03Z ggregory $
+ * @version $Id$
  */
 public class StylesheetTestletDriver extends FileBasedTest
 {
@@ -138,13 +138,6 @@ public class StylesheetTestletDriver extends FileBasedTest
      */
     public static final String OPT_PROCESSOR = "processor";
 
-    /**
-     * Parameter: Is there any parameters for XSL to use?
-     * <p>Default: none
-     * </p>
-     */
-    public static final String OPT_PARAM = "param";
-
     /** Parameter: What processor is being used?  */
     protected String processor = null;
 
@@ -173,9 +166,6 @@ public class StylesheetTestletDriver extends FileBasedTest
 
     /** Convenience constant: .xml extension for input data file.  */
     public static final String XML_EXTENSION = ".xml";
-
-    /** Convenience constant: .param extension for input data file.  */
-    public static final String PARAM_EXTENSION = ".param";
 
     /** Convenience constant: .xsl extension for stylesheet file.  */
     public static final String XSL_EXTENSION = ".xsl";
@@ -636,7 +626,6 @@ public class StylesheetTestletDriver extends FileBasedTest
                 d.inputName = testLocation.getPath() + File.separator + file;
 
                 String fileNameRoot = file.substring(0, file.indexOf(XSL_EXTENSION));
-                d.paramName = testLocation.getPath() + File.separator + fileNameRoot + PARAM_EXTENSION;
                 d.xmlName = testLocation.getPath() + File.separator + fileNameRoot + XML_EXTENSION;
                 d.outputName = outLocation.getPath() + File.separator + fileNameRoot + OUT_EXTENSION;
                 d.goldName = goldLocation.getPath() + File.separator + fileNameRoot + OUT_EXTENSION;

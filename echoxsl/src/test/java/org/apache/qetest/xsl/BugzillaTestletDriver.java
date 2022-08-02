@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 /*
- * $Id: BugzillaTestletDriver.java 470101 2006-11-01 21:03:00Z minchau $
+ * $Id$
  */
 
 /*
@@ -53,7 +53,7 @@ import org.apache.qetest.Testlet;
  *
  *
  * @author shane_curcuru@lotus.com
- * @version $Id: BugzillaTestletDriver.java 470101 2006-11-01 21:03:00Z minchau $
+ * @version $Id$
  */
 public class BugzillaTestletDriver extends StylesheetTestletDriver
 {

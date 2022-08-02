@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 /*
- * $Id: QetestUtils.java 470101 2006-11-01 21:03:00Z minchau $
+ * $Id$
  */
 
 package org.apache.qetest;
@@ -34,7 +34,7 @@ import java.util.Hashtable;
  * line with a full or partial classname (in the org.apache.qetest 
  * area, obviously) and we'll load and execute that class instead.
  * @author shane_curcuru@lotus.com
- * @version $Id: QetestUtils.java 470101 2006-11-01 21:03:00Z minchau $
+ * @version $Id$
  */
 public abstract class QetestUtils
 {

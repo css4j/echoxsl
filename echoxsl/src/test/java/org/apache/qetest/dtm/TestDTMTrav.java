@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 /*
- * $Id: TestDTMTrav.java 470101 2006-11-01 21:03:00Z minchau $
+ * $Id$
  */
 package org.apache.qetest.dtm;
 
@@ -47,7 +47,7 @@ import org.apache.xpath.objects.XMLStringFactoryImpl;
 * - a bunch of convenience variables/initializers are included, 
 *   use or delete as is useful
 * @author Paul Dick
-* @version $Id: TestDTMTrav.java 470101 2006-11-01 21:03:00Z minchau $
+* @version $Id$
 */
 public class TestDTMTrav extends FileBasedTest
 {

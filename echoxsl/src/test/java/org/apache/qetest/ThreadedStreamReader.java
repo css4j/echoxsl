@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 /*
- * $Id: ThreadedStreamReader.java 470101 2006-11-01 21:03:00Z minchau $
+ * $Id$
  */
 
 package org.apache.qetest;
@@ -41,7 +41,7 @@ import java.io.IOException;
  * </pre>
  *
  * @author Shane_Curcuru@lotus.com
- * @version $Id: ThreadedStreamReader.java 470101 2006-11-01 21:03:00Z minchau $
+ * @version $Id$
  */
 public class ThreadedStreamReader extends Thread
 {

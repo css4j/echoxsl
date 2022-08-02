@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 /*
- * $Id: TraxDOMWrapper.java 470101 2006-11-01 21:03:00Z minchau $
+ * $Id$
  */
 package org.apache.qetest.xslwrapper;
 import java.util.Hashtable;
@@ -61,7 +61,7 @@ import org.xml.sax.InputSource;
  * //@todo add in checks for factory.getFeature(DOMSource.FEATURE)
  * 
  * @author Shane Curcuru
- * @version $Id: TraxDOMWrapper.java 470101 2006-11-01 21:03:00Z minchau $
+ * @version $Id$
  */
 public class TraxDOMWrapper extends TransformWrapperHelper
 {

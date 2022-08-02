@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 /*
- * $Id: TransformStateDatalet.java 470101 2006-11-01 21:03:00Z minchau $
+ * $Id$
  */
 
 /*
@@ -35,7 +35,7 @@ import org.apache.qetest.Datalet;
  * Datalet for holding ExpectedTransformState objects.
  *
  * @author Shane_Curcuru@lotus.com
- * @version $Id: TransformStateDatalet.java 470101 2006-11-01 21:03:00Z minchau $
+ * @version $Id$
  */
 public class TransformStateDatalet implements Datalet
 {

@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 /*
- * $Id: NullDatalet.java 470101 2006-11-01 21:03:00Z minchau $
+ * $Id$
  */
 
 /*
@@ -36,7 +36,7 @@ import java.util.Hashtable;
  * -- Guy de Maupassant, <u>Sur l'Eau</u>
  * 
  * @author Shane_Curcuru@lotus.com
- * @version $Id: NullDatalet.java 470101 2006-11-01 21:03:00Z minchau $
+ * @version $Id$
  */
 public class NullDatalet implements Datalet
 {

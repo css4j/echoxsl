@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 /*
- * $Id: SAXTransformerFactoryAPITest.java 470101 2006-11-01 21:03:00Z minchau $
+ * $Id$
  */
 
 /*
@@ -65,7 +65,7 @@ import org.xml.sax.XMLReader;
  * API Coverage test for SAXTransformerFactory.
  * @author Krishna.Meduri@eng.sun.com
  * @author shane_curcuru@lotus.com
- * @version $Id: SAXTransformerFactoryAPITest.java 470101 2006-11-01 21:03:00Z minchau $
+ * @version $Id$
  */
 public class SAXTransformerFactoryAPITest extends FileBasedTest
 {

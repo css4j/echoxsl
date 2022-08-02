@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 /*
- * $Id: ConformanceDirRules.java 470101 2006-11-01 21:03:00Z minchau $
+ * $Id$
  */
 package org.apache.qetest.xsl;
 
@@ -30,7 +30,7 @@ import java.util.StringTokenizer;
  * just ones that don't begin with [x|X], or are 'CVS'.
  * Rudimentary multiple inclusion dirs are now supported.
  * @author shane_curcuru@lotus.com
- * @version $Id: ConformanceDirRules.java 470101 2006-11-01 21:03:00Z minchau $
+ * @version $Id$
  */
 public class ConformanceDirRules implements FilenameFilter
 {

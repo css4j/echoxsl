@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 /*
- * $Id: SystemIDResolverAPITest.java 470101 2006-11-01 21:03:00Z minchau $
+ * $Id$
  */
 package org.apache.qetest.xalanj2;
 
@@ -29,7 +29,7 @@ import org.apache.xml.utils.SystemIDResolver;
  * Very simple coverage test.
  * 
  * @author shane_curcuru@us.ibm.com
- * @version $Id: SystemIDResolverAPITest.java 470101 2006-11-01 21:03:00Z minchau $
+ * @version $Id$
  */
 public class SystemIDResolverAPITest extends FileBasedTest
 {

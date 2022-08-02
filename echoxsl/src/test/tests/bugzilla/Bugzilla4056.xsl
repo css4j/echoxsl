@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?> 
 <!-- Bugzilla#4056 See also whitespace20.xsl for similar test of xml:space -->
-<!-- $RCSfile: Bugzilla4056.xsl,v $ $Revision: 470058 $ $Date: 2006-11-01 20:49:37 +0100 (mi., 01 nov. 2006) $ -->
+<!-- $RCSfile: Bugzilla4056.xsl,v $ $Revision$ $Date$ -->
 <xsl:stylesheet 
  xmlns:xsl="http://www.w3.org/1999/XSL/Transform"  
  version="1.0"

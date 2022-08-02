@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 /*
- * $Id: DTMDumpTest.java 470101 2006-11-01 21:03:00Z minchau $
+ * $Id$
  */
 
 /*
@@ -50,7 +50,7 @@ import org.w3c.dom.traversal.NodeIterator;
  * Simple unit test of various DTM and related apis.  
  * This class acts as it's own Xalan extension.
  * @author shane_curcuru@lotus.com
- * @version $Id: DTMDumpTest.java 470101 2006-11-01 21:03:00Z minchau $
+ * @version $Id$
  */
 public class DTMDumpTest extends FileBasedTest
 {

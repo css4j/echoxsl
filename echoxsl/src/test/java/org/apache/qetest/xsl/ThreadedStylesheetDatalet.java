@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 /*
- * $Id: ThreadedStylesheetDatalet.java 470101 2006-11-01 21:03:00Z minchau $
+ * $Id$
  */
 
 /*
@@ -41,7 +41,7 @@ import org.apache.qetest.xslwrapper.TransformWrapper;
  *
  * //@todo see if we should subclass StylesheetDatalet or not?
  * @author Shane_Curcuru@lotus.com
- * @version $Id: ThreadedStylesheetDatalet.java 470101 2006-11-01 21:03:00Z minchau $
+ * @version $Id$
  */
 public class ThreadedStylesheetDatalet implements Datalet
 {

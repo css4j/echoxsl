@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 /*
- * $Id: XalanCTestlet.java 470101 2006-11-01 21:03:00Z minchau $
+ * $Id$
  */
 
 package org.apache.qetest.xsl;
@@ -32,7 +32,7 @@ import org.apache.qetest.Datalet;
  * Note: this class simply uses CmdlineTestlet's implementation.
  *
  * @author Shane_Curcuru@lotus.com
- * @version $Id: XalanCTestlet.java 470101 2006-11-01 21:03:00Z minchau $
+ * @version $Id$
  */
 public class XalanCTestlet extends CmdlineTestlet
 {

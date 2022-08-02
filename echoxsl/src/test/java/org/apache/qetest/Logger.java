@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 /*
- * $Id: Logger.java 470101 2006-11-01 21:03:00Z minchau $
+ * $Id$
  */
 
 /*
@@ -61,7 +61,7 @@ import java.util.Properties;
  * a <a href="http://jakarta.apache.org/log4j/docs/index.html">
  * Log4JLogger</a> class in the future.</p>
  * @author Shane_Curcuru@lotus.com
- * @version $Id: Logger.java 470101 2006-11-01 21:03:00Z minchau $
+ * @version $Id$
  */
 public interface Logger
 {

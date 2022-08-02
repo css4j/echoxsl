@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 /*
- * $Id: XHTComparatorXSLTC.java 470101 2006-11-01 21:03:00Z minchau $
+ * $Id$
  */
 
 package org.apache.qetest.xsl;
@@ -38,7 +38,7 @@ import org.w3c.dom.Node;
  * @author Scott_Boag@lotus.com
  * @author Shane_Curcuru@lotus.com
  * @author Santiago.PericasGeertsen@sun.com
- * @version $Id: XHTComparatorXSLTC.java 470101 2006-11-01 21:03:00Z minchau $
+ * @version $Id$
  */
 public class XHTComparatorXSLTC extends XHTComparator
 {

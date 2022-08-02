@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 /*
- * $Id: Testlet.java 470101 2006-11-01 21:03:00Z minchau $
+ * $Id$
  */
 
 /*
@@ -66,7 +66,7 @@ package org.apache.qetest;
  * reproduce the problem with a minimum of overhead.</p>
  *
  * @author Shane_Curcuru@lotus.com
- * @version $Id: Testlet.java 470101 2006-11-01 21:03:00Z minchau $
+ * @version $Id$
  */
 public interface Testlet
 {

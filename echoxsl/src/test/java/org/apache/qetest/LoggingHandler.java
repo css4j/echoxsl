@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 /*
- * $Id: LoggingHandler.java 470101 2006-11-01 21:03:00Z minchau $
+ * $Id$
  */
 
 /*
@@ -38,7 +38,7 @@ package org.apache.qetest;
  * <p>The best description for this class can be seen in an 
  * example; see trax.LoggingErrorHandler.java for one.</p>
  * @author shane_curcuru@lotus.com
- * @version $Id: LoggingHandler.java 470101 2006-11-01 21:03:00Z minchau $
+ * @version $Id$
  */
 public class LoggingHandler
 {

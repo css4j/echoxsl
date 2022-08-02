@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 /*
- * $Id: TraxStreamWrapper.java 470101 2006-11-01 21:03:00Z minchau $
+ * $Id$
  */
 package org.apache.qetest.xslwrapper;
 import java.io.ByteArrayInputStream;
@@ -59,7 +59,7 @@ import org.apache.xml.utils.DefaultErrorHandler;
  * should be updated in several of our methods.</p>
  * 
  * @author Shane Curcuru
- * @version $Id: TraxStreamWrapper.java 470101 2006-11-01 21:03:00Z minchau $
+ * @version $Id$
  */
 public class TraxStreamWrapper extends TransformWrapperHelper
 {

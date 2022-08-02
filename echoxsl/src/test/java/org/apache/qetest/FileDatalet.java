@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 /*
- * $Id: FileDatalet.java 470101 2006-11-01 21:03:00Z minchau $
+ * $Id$
  */
 
 package org.apache.qetest;
@@ -46,7 +46,7 @@ import java.util.StringTokenizer;
  * @see FileTestletDriver
  * @see FileDataletManager
  * @author Shane_Curcuru@us.ibm.com
- * @version $Id: FileDatalet.java 470101 2006-11-01 21:03:00Z minchau $
+ * @version $Id$
  */
 public class FileDatalet implements Datalet
 {

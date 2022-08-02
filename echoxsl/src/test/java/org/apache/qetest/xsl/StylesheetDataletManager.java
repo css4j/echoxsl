@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 /*
- * $Id: StylesheetDataletManager.java 470101 2006-11-01 21:03:00Z minchau $
+ * $Id$
  */
 
 package org.apache.qetest.xsl;
@@ -35,7 +35,7 @@ import org.apache.qetest.Logger;
  * 
  *
  * @author shane_curcuru@us.ibm.com
- * @version $Id: StylesheetDataletManager.java 470101 2006-11-01 21:03:00Z minchau $
+ * @version $Id$
  */
 public abstract class StylesheetDataletManager // provide static services only
 {

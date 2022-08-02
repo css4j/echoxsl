@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 /*
- * $Id: SAXResultAPITest.java 470101 2006-11-01 21:03:00Z minchau $
+ * $Id$
  */
 
 /*
@@ -62,7 +62,7 @@ import org.xml.sax.ext.LexicalHandler;
 /**
  * API Coverage test for the SAXResult class of TRAX.
  * @author shane_curcuru@lotus.com
- * @version $Id: SAXResultAPITest.java 470101 2006-11-01 21:03:00Z minchau $
+ * @version $Id$
  */
 public class SAXResultAPITest extends FileBasedTest
 {

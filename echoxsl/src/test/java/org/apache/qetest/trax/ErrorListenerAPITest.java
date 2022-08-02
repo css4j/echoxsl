@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 /*
- * $Id: ErrorListenerAPITest.java 470101 2006-11-01 21:03:00Z minchau $
+ * $Id$
  */
 
 /*
@@ -39,7 +39,7 @@ import org.apache.qetest.FileBasedTest;
  * API Coverage test for ErrorListener; defaults to Xalan impl.
  * Only very basic API coverage.
  * @author shane_curcuru@lotus.com
- * @version $Id: ErrorListenerAPITest.java 470101 2006-11-01 21:03:00Z minchau $
+ * @version $Id$
  */
 public class ErrorListenerAPITest extends FileBasedTest
 {

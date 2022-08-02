@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 /*
- * $Id: OutputPropertiesTest.java 470101 2006-11-01 21:03:00Z minchau $
+ * $Id$
  */
 
 /*
@@ -55,7 +55,7 @@ import org.w3c.dom.Document;
  * Verify how output properties are handled from stylesheets and the API.
  * @author shane_curcuru@lotus.com
  * @author Krishna.Meduri@eng.sun.com
- * @version $Id: OutputPropertiesTest.java 470101 2006-11-01 21:03:00Z minchau $
+ * @version $Id$
  */
 public class OutputPropertiesTest extends FileBasedTest
 {

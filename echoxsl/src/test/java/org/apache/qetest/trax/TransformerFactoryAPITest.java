@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 /*
- * $Id: TransformerFactoryAPITest.java 470101 2006-11-01 21:03:00Z minchau $
+ * $Id$
  */
 
 /*
@@ -59,7 +59,7 @@ import org.w3c.dom.Document;
 /**
  * API Coverage test for TransformerFactory class of TRAX.
  * @author shane_curcuru@lotus.com
- * @version $Id: TransformerFactoryAPITest.java 470101 2006-11-01 21:03:00Z minchau $
+ * @version $Id$
  */
 public class TransformerFactoryAPITest extends FileBasedTest
 {

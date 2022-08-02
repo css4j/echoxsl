@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 /*
- * $Id: TestableExtension.java 470101 2006-11-01 21:03:00Z minchau $
+ * $Id$
  */
 
 /*
@@ -39,7 +39,7 @@ import org.apache.qetest.Logger;
  * an extension that the transformer used.
  *
  * @author Shane_Curcuru@lotus.com
- * @version $Id: TestableExtension.java 470101 2006-11-01 21:03:00Z minchau $
+ * @version $Id$
  */
 public class TestableExtension
 {

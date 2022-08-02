@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 /*
- * $Id: Datalet.java 1346560 2012-06-05 20:08:26Z ggregory $
+ * $Id$
  */
 
 /*
@@ -36,7 +36,7 @@ import java.util.Hashtable;
  * Testlets and Datalets are matched.</p>
  *
  * <p>This makes creating data-driven tests simpler, by separating 
- * the test algorithm from the definition of the test data.  Note 
+ * the test algorithim from the definition of the test data.  Note 
  * that logging what happened during the test is already separated 
  * out into the Logger interface.</p>
  *
@@ -67,7 +67,7 @@ import java.util.Hashtable;
  *
  * <p>//@todo Should we add a getParameterInfo() method?</p>
  * @author Shane_Curcuru@lotus.com
- * @version $Id: Datalet.java 1346560 2012-06-05 20:08:26Z ggregory $
+ * @version $Id$
  */
 public interface Datalet
 {

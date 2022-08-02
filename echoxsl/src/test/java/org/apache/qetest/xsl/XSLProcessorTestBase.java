@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 /*
- * $Id: XSLProcessorTestBase.java 470101 2006-11-01 21:03:00Z minchau $
+ * $Id$
  */
 
 /*
@@ -35,7 +35,7 @@ import org.apache.qetest.FileBasedTest;
  * in FileBasedTest and/or in StylesheetTestletDriver, depending 
  * in the kind of test it is.</p>
  * @author Shane_Curcuru@lotus.com
- * @version $Id: XSLProcessorTestBase.java 470101 2006-11-01 21:03:00Z minchau $
+ * @version $Id$
  */
 public class XSLProcessorTestBase extends FileBasedTest
 {

@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 /*
- * $Id: ExtensionTestlet.java 470101 2006-11-01 21:03:00Z minchau $
+ * $Id$
  */
 
 /*
@@ -41,7 +41,7 @@ import org.apache.qetest.Logger;
  * extension classes to verify themselves and log out info.
  *
  * @author Shane_Curcuru@lotus.com
- * @version $Id: ExtensionTestlet.java 470101 2006-11-01 21:03:00Z minchau $
+ * @version $Id$
  */
 public class ExtensionTestlet extends StylesheetTestlet
 {

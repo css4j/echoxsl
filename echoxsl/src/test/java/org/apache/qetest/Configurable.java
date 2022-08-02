@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 /*
- * $Id: Configurable.java 470101 2006-11-01 21:03:00Z minchau $
+ * $Id$
  */
 
 package org.apache.qetest;
@@ -30,7 +30,7 @@ import java.util.Properties;
  * utility and having it pass it to any underlying objects.
  *
  * @author Shane_Curcuru@lotus.com
- * @version $Id: Configurable.java 470101 2006-11-01 21:03:00Z minchau $
+ * @version $Id$
  */
 public interface Configurable
 {

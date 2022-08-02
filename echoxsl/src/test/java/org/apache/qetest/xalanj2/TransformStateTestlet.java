@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 /*
- * $Id: TransformStateTestlet.java 470101 2006-11-01 21:03:00Z minchau $
+ * $Id$
  */
 
 /*
@@ -57,7 +57,7 @@ import org.xml.sax.SAXException;
  * Currently uses cheap-o validation method
  *
  * @author Shane_Curcuru@lotus.com
- * @version $Id: TransformStateTestlet.java 470101 2006-11-01 21:03:00Z minchau $
+ * @version $Id$
  */
 public class TransformStateTestlet extends TestletImpl
         implements ContentHandler, TransformerClient

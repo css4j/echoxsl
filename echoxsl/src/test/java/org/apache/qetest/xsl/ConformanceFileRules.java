@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 /*
- * $Id: ConformanceFileRules.java 470101 2006-11-01 21:03:00Z minchau $
+ * $Id$
  */
 package org.apache.qetest.xsl;
 
@@ -29,7 +29,7 @@ import java.util.StringTokenizer;
  * Simple file filter; returns *.xsl non-dir files that start with the directory name.
  * Has crude support for an excludes list of filename bases.
  * @author shane_curcuru@lotus.com
- * @version $Id: ConformanceFileRules.java 470101 2006-11-01 21:03:00Z minchau $
+ * @version $Id$
  */
 public class ConformanceFileRules implements FilenameFilter
 {

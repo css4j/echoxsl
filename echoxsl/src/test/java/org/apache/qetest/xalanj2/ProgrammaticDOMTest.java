@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 /*
- * $Id: ProgrammaticDOMTest.java 470101 2006-11-01 21:03:00Z minchau $
+ * $Id$
  */
 
 /*
@@ -55,7 +55,7 @@ import org.xml.sax.InputSource;
  * Functionality/system/integration tests for DOMSource.
  * Various kinds of DOM elements, documents used.
  * @author shane_curcuru@lotus.com
- * @version $Id: ProgrammaticDOMTest.java 470101 2006-11-01 21:03:00Z minchau $
+ * @version $Id$
  */
 public class ProgrammaticDOMTest extends FileBasedTest
 {

@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 /*
- * $Id: SystemIdTest.java 470101 2006-11-01 21:03:00Z minchau $
+ * $Id$
  */
 
 /*
@@ -89,7 +89,7 @@ import org.apache.qetest.xsl.XSLTestfileInfo;
  *  specifically says / forward slashes
  *
  * @author shane_curcuru@lotus.com
- * @version $Id: SystemIdTest.java 470101 2006-11-01 21:03:00Z minchau $
+ * @version $Id$
  */
 public class SystemIdTest extends FileBasedTest
 {

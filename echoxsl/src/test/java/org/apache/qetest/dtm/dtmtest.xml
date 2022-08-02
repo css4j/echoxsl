@@ -16,7 +16,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
 -->
-<!-- $Id: dtmtest.xml 470422 2006-11-02 17:18:15Z minchau $ -->
+<!-- $Id$ -->
 <Document xmlns:x="www.x.com" a1="hello" a2="goodbye">
 <!-- Default test document -->
 <?api a1="yes" a2="no"?>

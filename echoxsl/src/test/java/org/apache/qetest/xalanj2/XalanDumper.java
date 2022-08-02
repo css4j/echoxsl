@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 /*
- * $Id: XalanDumper.java 470101 2006-11-01 21:03:00Z minchau $
+ * $Id$
  */
 
 package org.apache.qetest.xalanj2;
@@ -49,7 +49,7 @@ import org.w3c.dom.NodeList;
  * logging utilities to output our data without escaping, etc.
  * 
  * @author shane_curcuru@lotus.com
- * @version $Id: XalanDumper.java 470101 2006-11-01 21:03:00Z minchau $
+ * @version $Id$
  */
 public abstract class XalanDumper 
 {

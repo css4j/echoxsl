@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 /*
- * $Id: DOMResultAPITest.java 470101 2006-11-01 21:03:00Z minchau $
+ * $Id$
  */
 
 /*
@@ -54,7 +54,7 @@ import org.xml.sax.InputSource;
 /**
  * API Coverage test for the DOMResult class of TRAX.
  * @author shane_curcuru@lotus.com
- * @version $Id: DOMResultAPITest.java 470101 2006-11-01 21:03:00Z minchau $
+ * @version $Id$
  */
 public class DOMResultAPITest extends FileBasedTest
 {

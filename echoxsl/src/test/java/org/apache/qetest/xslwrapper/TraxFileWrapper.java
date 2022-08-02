@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 /*
- * $Id: TraxFileWrapper.java 470101 2006-11-01 21:03:00Z minchau $
+ * $Id$
  */
 package org.apache.qetest.xslwrapper;
 import java.io.File;
@@ -46,7 +46,7 @@ import org.apache.xml.utils.DefaultErrorHandler;
  * our getProcessorInfo() method.
  * 
  * @author Shane Curcuru
- * @version $Id: TraxFileWrapper.java 470101 2006-11-01 21:03:00Z minchau $
+ * @version $Id$
  */
 public class TraxFileWrapper extends TransformWrapperHelper
 {

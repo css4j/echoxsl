@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 /*
- * $Id: TestXPathAPI.java 470101 2006-11-01 21:03:00Z minchau $
+ * $Id$
  */
 // This file uses 2 space indents, no tabs.
 

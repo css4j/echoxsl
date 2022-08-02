@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 /*
- * $Id: XalanProcessWrapper.java 470101 2006-11-01 21:03:00Z minchau $
+ * $Id$
  */
 package org.apache.qetest.xslwrapper;
 import java.util.Hashtable;
@@ -38,7 +38,7 @@ import org.apache.qetest.QetestUtils;
  * //@todo support precompiled/serialized stylesheets
  *
  * @author Shane_Curcuru@us.ibm.com
- * @version $Id: XalanProcessWrapper.java 470101 2006-11-01 21:03:00Z minchau $
+ * @version $Id$
  */
 public class XalanProcessWrapper extends TransformWrapperHelper
 {

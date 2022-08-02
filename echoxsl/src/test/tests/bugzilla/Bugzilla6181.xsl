@@ -5,9 +5,9 @@
   -          and generating the action classes required for our simple UI
   -          for each entity in the file.
   -
-  - $Revision: 470058 $
-  - $Date: 2006-11-01 20:49:37 +0100 (mi., 01 nov. 2006) $
-  - $Author: minchau $
+  - $Revision$
+  - $Date$
+  - $Author$
   -->
 
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"

@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 /*
- * $Id: StylesheetErrorTestlet.java 470101 2006-11-01 21:03:00Z minchau $
+ * $Id$
  */
 
 package org.apache.qetest.xsl;
@@ -51,7 +51,7 @@ import org.apache.qetest.Logger;
  * produce an output file (that's the subject of another test...)
  *
  * @author Shane_Curcuru@lotus.com
- * @version $Id: StylesheetErrorTestlet.java 470101 2006-11-01 21:03:00Z minchau $
+ * @version $Id$
  */
 public class StylesheetErrorTestlet extends StylesheetTestlet
 {

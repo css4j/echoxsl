@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 /*
- * $Id: XSLTestHarness.java 470101 2006-11-01 21:03:00Z minchau $
+ * $Id$
  */
 
 /*
@@ -52,7 +52,7 @@ import org.apache.qetest.Reporter;
  *        user doesn't call testCaseClose (where do results go?)
  * @todo report on memory usage, etc.
  * @author Shane_Curcuru@lotus.com
- * @version $Id: XSLTestHarness.java 470101 2006-11-01 21:03:00Z minchau $
+ * @version $Id$
  */
 public class XSLTestHarness
 {

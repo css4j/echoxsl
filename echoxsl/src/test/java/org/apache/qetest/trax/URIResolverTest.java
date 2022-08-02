@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 /*
- * $Id: URIResolverTest.java 470101 2006-11-01 21:03:00Z minchau $
+ * $Id$
  */
 
 /*
@@ -46,7 +46,7 @@ import org.apache.qetest.xsl.XSLTestfileInfo;
 /**
  * Verify that URIResolvers are called properly.
  * @author shane_curcuru@lotus.com
- * @version $Id: URIResolverTest.java 470101 2006-11-01 21:03:00Z minchau $
+ * @version $Id$
  */
 public class URIResolverTest extends FileBasedTest
 {

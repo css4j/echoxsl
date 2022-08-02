@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 /*
- * $Id: FileDataletManager.java 470101 2006-11-01 21:03:00Z minchau $
+ * $Id$
  */
 
 package org.apache.qetest;
@@ -42,7 +42,7 @@ import java.util.Vector;
  * @see FileTestletDriver
  * @see FileDatalet
  * @author shane_curcuru@us.ibm.com
- * @version $Id: FileDataletManager.java 470101 2006-11-01 21:03:00Z minchau $
+ * @version $Id$
  */
 public abstract class FileDataletManager // provide static services only
 {

@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 /*
- * $Id: CmdlineTestlet.java 470101 2006-11-01 21:03:00Z minchau $
+ * $Id$
  */
 
 /*
@@ -45,7 +45,7 @@ import org.apache.qetest.xslwrapper.TransformWrapper;
  * exact command line args, etc. used for different products.
  *
  * @author Shane_Curcuru@lotus.com
- * @version $Id: CmdlineTestlet.java 470101 2006-11-01 21:03:00Z minchau $
+ * @version $Id$
  */
 public class CmdlineTestlet extends StylesheetTestlet
 {

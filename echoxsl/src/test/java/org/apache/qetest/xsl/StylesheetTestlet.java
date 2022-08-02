@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 /*
- * $Id: StylesheetTestlet.java 1347838 2012-06-08 00:02:37Z ggregory $
+ * $Id$
  */
 
 /*
@@ -27,11 +27,7 @@
 package org.apache.qetest.xsl;
 
 import java.io.File;
-import java.io.FileInputStream;
 import java.util.Hashtable;
-import java.util.Iterator;
-import java.util.Map;
-import java.util.Properties;
 
 import org.apache.qetest.CheckService;
 import org.apache.qetest.Datalet;
@@ -45,7 +41,7 @@ import org.apache.qetest.xslwrapper.TransformWrapperFactory;
 /**
  * Testlet for conformance testing of xsl stylesheet files.
  *
- * This class provides the default algorithm used for verifying 
+ * This class provides the default algorithim used for verifying 
  * Xalan's conformance to the XSLT spec.  It works in conjunction 
  * with StylesheetTestletDriver, which supplies the logic for 
  * choosing the testfiles to iterate over, and with 
@@ -55,10 +51,10 @@ import org.apache.qetest.xslwrapper.TransformWrapperFactory;
  * as different processing models, like SAX, DOM or Streams).
  *
  * This class is broken up into common worker methods to make 
- * subclassing easier for alternate testing algorithm.
+ * subclassing easier for alternate testing algoritims.
  *
  * @author Shane_Curcuru@lotus.com
- * @version $Id: StylesheetTestlet.java 1347838 2012-06-08 00:02:37Z ggregory $
+ * @version $Id$
  */
 public class StylesheetTestlet extends TestletImpl
 {
@@ -193,26 +189,8 @@ public class StylesheetTestlet extends TestletImpl
         //@todo Should we log a custom logElement here instead?
         logger.logMsg(Logger.TRACEMSG, "executing with: inputName=" + datalet.inputName
                       + " xmlName=" + datalet.xmlName + " outputName=" + datalet.outputName
-                      + " goldName=" + datalet.goldName + " flavor="  + datalet.flavor
-                      + " paramName="  + datalet.paramName);
+                      + " goldName=" + datalet.goldName + " flavor="  + datalet.flavor);
 
-        // Optional: configure a test with XSLT parameters.
-        final File paramFile = new File(datalet.paramName);
-        if (paramFile.exists()) {
-            Properties params = new Properties();
-            final FileInputStream inStream = new FileInputStream(paramFile);
-            try {
-                params.load(inStream);
-                final Iterator iter = params.entrySet().iterator();
-                while (iter.hasNext()) {
-                    Map.Entry entry = (Map.Entry) iter.next();
-                    transformWrapper.setParameter(null, entry.getKey().toString(), entry.getValue());
-                }
-            } finally {
-                inStream.close();
-            }
-        }
-        
         // Simply have the wrapper do all the transforming
         //  or processing for us - we handle either normal .xsl 
         //  stylesheet tests or just .xml embedded tests

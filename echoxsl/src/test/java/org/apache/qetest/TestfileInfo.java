@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 /*
- * $Id: TestfileInfo.java 470101 2006-11-01 21:03:00Z minchau $
+ * $Id$
  */
 
 /*
@@ -49,7 +49,7 @@ import java.util.StringTokenizer;
  * for testing of how applications translate the names to File
  * objects, or whatever they use.</p>
  * @author Shane Curcuru
- * @version $Id: TestfileInfo.java 470101 2006-11-01 21:03:00Z minchau $
+ * @version $Id$
  * @todo Leave everything public for now for simplicity
  * Later, if this is a useful construct, we should improve on it's services:
  * allow it to verify it's own files, change absolute refs fo relative, etc.

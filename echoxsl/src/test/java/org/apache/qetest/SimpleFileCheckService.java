@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 /*
- * $Id: SimpleFileCheckService.java 470101 2006-11-01 21:03:00Z minchau $
+ * $Id$
  */
 
 package org.apache.qetest;
@@ -29,7 +29,7 @@ import java.util.Properties;
 /**
  * Simply does .readLine of each file into string buffers and then String.equals().
  * @author Shane_Curcuru@lotus.com
- * @version $Id: SimpleFileCheckService.java 470101 2006-11-01 21:03:00Z minchau $
+ * @version $Id$
  */
 public class SimpleFileCheckService implements CheckService
 {

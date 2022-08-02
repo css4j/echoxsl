@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 /*
- * $Id: TraxWrapperUtils.java 470101 2006-11-01 21:03:00Z minchau $
+ * $Id$
  */
 package org.apache.qetest.xslwrapper;
 
@@ -41,7 +41,7 @@ import org.apache.xalan.transformer.TransformerImpl;
  * Cheap-o utilities for Trax*Wrapper implementations.
  *
  * @author Shane Curcuru
- * @version $Id: TraxWrapperUtils.java 470101 2006-11-01 21:03:00Z minchau $
+ * @version $Id$
  */
 public abstract class TraxWrapperUtils
 {

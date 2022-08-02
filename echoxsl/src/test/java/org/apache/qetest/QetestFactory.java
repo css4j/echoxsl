@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 /*
- * $Id: QetestFactory.java 470101 2006-11-01 21:03:00Z minchau $
+ * $Id$
  */
 
 package org.apache.qetest;
@@ -30,7 +30,7 @@ import java.util.Properties;
  * of a file-based CheckService.
  *
  * @author Shane_Curcuru@lotus.com
- * @version $Id: QetestFactory.java 470101 2006-11-01 21:03:00Z minchau $
+ * @version $Id$
  */
 public abstract class QetestFactory
 {

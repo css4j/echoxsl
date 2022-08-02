@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 /*
- * $Id: Reporter.java 470101 2006-11-01 21:03:00Z minchau $
+ * $Id$
  */
 
 /*
@@ -54,7 +54,7 @@ import java.util.StringTokenizer;
  * @todo explain better how results are rolled up and calculated
  * @author Shane_Curcuru@lotus.com
  * @author Jo_Grant@lotus.com
- * @version $Id: Reporter.java 470101 2006-11-01 21:03:00Z minchau $
+ * @version $Id$
  */
 public class Reporter implements Logger
 {

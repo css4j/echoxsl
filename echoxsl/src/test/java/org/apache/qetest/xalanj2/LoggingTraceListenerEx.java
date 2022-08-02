@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 /*
- * $Id: LoggingTraceListenerEx.java 470101 2006-11-01 21:03:00Z minchau $
+ * $Id$
  */
 
 /*
@@ -43,7 +43,7 @@ import org.w3c.dom.traversal.NodeIterator;
  * Future improvements: allow you to specify a set of 
  * expected events to validate.
  * @author shane_curcuru@lotus.com
- * @version $Id: LoggingTraceListenerEx.java 470101 2006-11-01 21:03:00Z minchau $
+ * @version $Id$
  */
 public class LoggingTraceListenerEx extends LoggingTraceListener 
        implements TraceListenerEx

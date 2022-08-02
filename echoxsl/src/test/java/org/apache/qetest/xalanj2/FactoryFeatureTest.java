@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 /*
- * $Id: FactoryFeatureTest.java 470101 2006-11-01 21:03:00Z minchau $
+ * $Id$
  */
 
 /*
@@ -48,7 +48,7 @@ import org.apache.xml.utils.DefaultErrorHandler;
  * Basic functionality test of various Factory configuration APIs.
  * Testing TransformerFactoryImpl.setAttribute, getFeature, etc.
  * @author shane_curcuru@lotus.com
- * @version $Id: FactoryFeatureTest.java 470101 2006-11-01 21:03:00Z minchau $
+ * @version $Id$
  */
 public class FactoryFeatureTest extends FileBasedTest
 {

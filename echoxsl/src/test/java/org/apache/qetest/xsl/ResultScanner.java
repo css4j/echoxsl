@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 /*
- * $Id: ResultScanner.java 470101 2006-11-01 21:03:00Z minchau $
+ * $Id$
  */
 
 package org.apache.qetest.xsl;
@@ -45,7 +45,7 @@ import javax.xml.transform.stream.StreamSource;
  * and related messages.</p>
  *  
  * @author shane_curcuru@lotus.com
- * @version $Id: ResultScanner.java 470101 2006-11-01 21:03:00Z minchau $
+ * @version $Id$
  */
 public class ResultScanner
 {

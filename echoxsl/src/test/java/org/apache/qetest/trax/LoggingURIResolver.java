@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 /*
- * $Id: LoggingURIResolver.java 470101 2006-11-01 21:03:00Z minchau $
+ * $Id$
  */
 
 /*
@@ -43,7 +43,7 @@ import org.xml.sax.InputSource;
  * Implementation of URIResolver that logs all calls.
  * Currently just provides default service; returns null.
  * @author shane_curcuru@lotus.com
- * @version $Id: LoggingURIResolver.java 470101 2006-11-01 21:03:00Z minchau $
+ * @version $Id$
  */
 public class LoggingURIResolver extends LoggingHandler implements URIResolver
 {

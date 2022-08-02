@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 /*
- * $Id: LoggingTransformState.java 470101 2006-11-01 21:03:00Z minchau $
+ * $Id$
  */
 
 /*
@@ -56,7 +56,7 @@ import org.xml.sax.SAXException;
  * characters() calls about both the source node being processed 
  * and about the xsl: element doing the processing.
  * @author shane_curcuru@lotus.com
- * @version $Id: LoggingTransformState.java 470101 2006-11-01 21:03:00Z minchau $
+ * @version $Id$
  */
 public class LoggingTransformState extends LoggingHandler 
        implements ContentHandler, TransformerClient

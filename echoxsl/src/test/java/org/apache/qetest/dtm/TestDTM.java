@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 /*
- * $Id: TestDTM.java 470101 2006-11-01 21:03:00Z minchau $
+ * $Id$
  */
 package org.apache.qetest.dtm;
 
@@ -57,7 +57,7 @@ public class TestDTM extends FileBasedTest
 * - a bunch of convenience variables/initializers are included, 
 *   use or delete as is useful
 * @author Paul Dick
-* @version $Id: TestDTM.java 470101 2006-11-01 21:03:00Z minchau $
+* @version $Id$
 *
 * Provides nextName(), currentName() functionality for tests 
 * that may produce any number of output files.

@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 /*
- * $Id: XsltcMainWrapper.java 1348497 2012-06-09 20:24:48Z ggregory $
+ * $Id$
  */
 package org.apache.qetest.xslwrapper;
 import java.io.ByteArrayOutputStream;
@@ -24,8 +24,6 @@ import java.io.File;
 import java.io.FileOutputStream;
 import java.io.PrintStream;
 import java.util.Hashtable;
-import java.util.Iterator;
-import java.util.Map;
 import java.util.Properties;
 
 import org.apache.xalan.xsltc.cmdline.Compile;
@@ -41,21 +39,19 @@ import org.apache.xalan.xsltc.cmdline.Transform;
  * that calls XSLTC API's directly.
  * 
  * @author Shane Curcuru
- * @version $Id: XsltcMainWrapper.java 1348497 2012-06-09 20:24:48Z ggregory $
+ * @version $Id$
  */
 public class XsltcMainWrapper extends TransformWrapperHelper
 {
 
-    private static final char CLEAN_CHAR = '_';
     protected static final String XSLTC_COMPILER_CLASS = "org.apache.xalan.xsltc.cmdline.Compile";
     protected static final String XSLTC_RUNTIME_CLASS = "org.apache.xalan.xsltc.cmdline.Transform";
 
-    private static final char FILE_SEPARATOR = System.getProperty("file.separator").charAt(0);
-    
     /**
      * Cached copy of newProcessor() Hashtable.
      */
     protected Hashtable newProcessorOpts = null;
+
 
     /**
      * Get a general description of this wrapper itself.
@@ -144,27 +140,29 @@ the translets
 
         // Timed: compile stylesheet class from XSL file
 //        String[] args1 = new String[2];
+//        args1[0] = "-s"; // Don't allow System.exit
 /* TWA - commented out the following for short-term
 Problem when local path/file is being used, somewhere a file://// prefix is 
 being appended to the filename and xsltc can't find the file even with the -u
 So I strip off the protocol prefix and pass the local path/file
-        args1[0] = "-u"; // Using URIs
-        args1[1] = xslName;
+        args1[1] = "-u"; // Using URIs
+        args1[2] = xslName;
 */
 /* TWA - temporay hack to construct and pass a directory for translets */
-        int last = resultName.lastIndexOf(FILE_SEPARATOR);
+        int last = resultName.lastIndexOf('/');
         String tdir = resultName.substring(0, last);
-        int next = tdir.lastIndexOf(FILE_SEPARATOR);
+        int next = tdir.lastIndexOf('/');
         String transletsdirName = tdir.substring(0, next);
 
-        String[] args1 = new String[3];
-        args1[0] = "-d";
-        args1[1] = transletsdirName;
-        args1[2] = xslName;
+        String[] args1 = new String[4];
+        args1[0] = "-s";
+        args1[1] = "-d";
+        args1[2] = transletsdirName;
+        args1[3] = xslName;
         int idx = xslName.indexOf("file:////");
         if (idx != -1){
                xslName = new String(xslName.substring(8));
-               args1[2] = xslName;
+               args1[3] = xslName;
         }
         startTime = System.currentTimeMillis();
         /// Transformer transformer = factory.newTransformer(new StreamSource(xslName));
@@ -173,30 +171,19 @@ So I strip off the protocol prefix and pass the local path/file
 
         // Verify output file was created
         // WARNING: assumption of / here, which means we assume URI not local path - needs revisiting
-        int nameStart = xslName.lastIndexOf(FILE_SEPARATOR) + 1;
+        int nameStart = xslName.lastIndexOf('/') + 1;
         String baseName = xslName.substring(nameStart);
         int extStart = baseName.lastIndexOf('.');
-        if (extStart > 0) {
+        if (extStart > 0)
             baseName = baseName.substring(0, extStart);
-        }
-        
-        // Replace illegal class name chars with underscores.
-        StringBuffer sb = new StringBuffer(baseName.length());
-        char charI = baseName.charAt(0);
-        sb.append(Character.isJavaLetter(charI) ? charI :CLEAN_CHAR);
-        for (int i = 1; i < baseName.length(); i++) {
-            charI = baseName.charAt(i);
-            sb.append(Character.isJavaLetterOrDigit(charI) ? charI :CLEAN_CHAR);
-        }
-        baseName = sb.toString();
-        
+
         // Untimed: Apply any parameters needed
         // applyParameters(transformer);
 
         // Timed: read/build xml, transform, and write results
 
 /* TWA - I don't see how this could have worked, there is no -s option in DefaultRun
-so passing it in the args2 caused usage messages to be output.
+so passing it in the args2 caused usuage messages to be output.
 Also, we shouldn't use the -u option unless we are really using URLs, 
 I'm just trying to get it to work with local path/files. With or without the 
 -u option, the files were getting a file://// prefix with caused them to be not found
@@ -207,16 +194,13 @@ I'm just trying to get it to work with local path/files. With or without the
         args2[3] = baseName;    // Just basename of the .class file, without the .class
                                 // Note that . must be on CLASSPATH to work!
 */
-        
-        String[] tempParam = makeParamArray();
-        String[] args2 = new String[2 + tempParam.length];
+        String[] args2 = new String[2];
         args2[0] = xmlName;
         int idx2 = xmlName.indexOf("file:////");
         if (idx2 != -1){
                args2[0] = new String(xmlName.substring(8));
         }
         args2[1] = baseName;
-        System.arraycopy(tempParam, 0, args2, 2, tempParam.length);
         ByteArrayOutputStream baos = new ByteArrayOutputStream();
         PrintStream newSystemOut = new PrintStream(baos);
         PrintStream saveSystemOut = System.out;
@@ -253,19 +237,6 @@ I'm just trying to get it to work with local path/files. With or without the
         return times;
     }
 
-    private String[] makeParamArray() {
-        if (m_params == null) {
-            return new String[0];
-        }
-        String[] params = new String[m_params.size()];
-        Iterator iter = m_params.entrySet().iterator();
-        int i = 0;
-        while (iter.hasNext()) {
-            Map.Entry entry = (Map.Entry) iter.next();
-            params[i++] = entry.getKey() + "=" + entry.getValue();
-        }
-        return params;
-    }
 
     /**
      * Pre-build/pre-compile a stylesheet.
@@ -390,7 +361,8 @@ I'm just trying to get it to work with local path/files. With or without the
             }
         }
     }
-    
+
+
     /**
      * Apply a single parameter to a Transformer.
      *

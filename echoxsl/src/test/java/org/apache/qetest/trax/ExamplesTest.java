@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 /*
- * $Id: ExamplesTest.java 470101 2006-11-01 21:03:00Z minchau $
+ * $Id$
  */
 
 /*
@@ -93,7 +93,7 @@ import org.xml.sax.XMLReader;
  * for each case - these should be updated as time permits.</p>
  * @author shane_curcuru@lotus.com
  * @author scott_boag@lotus.com
- * @version $Id: ExamplesTest.java 470101 2006-11-01 21:03:00Z minchau $
+ * @version $Id$
  */
 public class ExamplesTest extends FileBasedTest
 {

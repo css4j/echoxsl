@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 /*
- * $Id: SerializedStylesheetTest.java 470101 2006-11-01 21:03:00Z minchau $
+ * $Id$
  */
 
 /*
@@ -50,7 +50,7 @@ import org.apache.qetest.xsl.XSLTestfileInfo;
 /**
  * Basic functional test of serialized Templates objects.
  * @author shane_curcuru@lotus.com
- * @version $Id: SerializedStylesheetTest.java 470101 2006-11-01 21:03:00Z minchau $
+ * @version $Id$
  */
 public class SerializedStylesheetTest extends FileBasedTest
 {

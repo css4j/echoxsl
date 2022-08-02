@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 /*
- * $Id: TransformWrapperHelper.java 470101 2006-11-01 21:03:00Z minchau $
+ * $Id$
  */
 package org.apache.qetest.xslwrapper;
 
@@ -33,7 +33,7 @@ import java.util.Properties;
  * free to extend this class to get some free code.
  * 
  * @author Shane Curcuru
- * @version $Id: TransformWrapperHelper.java 470101 2006-11-01 21:03:00Z minchau $
+ * @version $Id$
  */
 public abstract class TransformWrapperHelper implements TransformWrapper
 {

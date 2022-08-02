@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 /*
- * $Id: FileTestlet.java 470101 2006-11-01 21:03:00Z minchau $
+ * $Id$
  */
 
 package org.apache.qetest;
@@ -34,7 +34,7 @@ import java.io.File;
  * the output to a known good gold file.
  *
  * @author Shane_Curcuru@us.ibm.com
- * @version $Id: FileTestlet.java 470101 2006-11-01 21:03:00Z minchau $
+ * @version $Id$
  */
 public class FileTestlet extends TestletImpl
 {

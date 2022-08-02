@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 /*
- * $Id: PerfTestlet.java 470101 2006-11-01 21:03:00Z minchau $
+ * $Id$
  */
 
 package org.apache.qetest.xsl;
@@ -41,7 +41,7 @@ import org.apache.qetest.xslwrapper.TransformWrapperHelper;
  * transformWrapper will return different sets of timings.
  *
  * @author Shane_Curcuru@us.ibm.com
- * @version $Id: PerfTestlet.java 470101 2006-11-01 21:03:00Z minchau $
+ * @version $Id$
  */
 public class PerfTestlet extends StylesheetTestlet
 {

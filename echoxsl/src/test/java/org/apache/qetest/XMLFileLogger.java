@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 /*
- * $Id: XMLFileLogger.java 470101 2006-11-01 21:03:00Z minchau $
+ * $Id$
  */
 
 /*
@@ -41,7 +41,7 @@ import java.util.Properties;
  * Logger that saves output to a simple XML-format file.
  * @todo improve escapeString so it's more rigorous about escaping
  * @author Shane_Curcuru@lotus.com
- * @version $Id: XMLFileLogger.java 470101 2006-11-01 21:03:00Z minchau $
+ * @version $Id$
  */
 public class XMLFileLogger implements Logger
 {

@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 /*
- * $Id: TestImpl.java 470101 2006-11-01 21:03:00Z minchau $
+ * $Id$
  */
 
 /*
@@ -39,7 +39,7 @@ import java.util.Properties;
  * implement the minimal methods in the Test interface, and use a
  * Logger to report results instead of a Reporter.</p>
  * @author Shane_Curcuru@lotus.com
- * @version $Id: TestImpl.java 470101 2006-11-01 21:03:00Z minchau $
+ * @version $Id$
  */
 public class TestImpl implements Test
 {

@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 /*
- * $Id: LoggingSAXErrorHandler.java 470101 2006-11-01 21:03:00Z minchau $
+ * $Id$
  */
 
 /*
@@ -38,7 +38,7 @@ import org.xml.sax.SAXParseException;
  * Cheap-o ErrorHandler for use by API tests.
  * <p>Implements org.xml.sax.ErrorHandler and dumps everything to a Reporter.</p>
  * @author shane_curcuru@lotus.com
- * @version $Id: LoggingSAXErrorHandler.java 470101 2006-11-01 21:03:00Z minchau $
+ * @version $Id$
  */
 public class LoggingSAXErrorHandler extends LoggingHandler implements ErrorHandler
 {
