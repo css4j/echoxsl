@@ -5,6 +5,10 @@ plugins {
 description = 'echoxsl'
 
 java {
+	// DTM
+	registerFeature('dtm') {
+		usingSourceSet(sourceSets.main)
+	}
 	// XSLT Compiler
 	registerFeature('xsltc') {
 		usingSourceSet(sourceSets.main)
@@ -13,7 +17,7 @@ java {
 
 dependencies {
 	api project(':serializer')
-	implementation "xerces:xercesImpl:${xercesVersion}"
+	dtmImplementation "xerces:xercesImpl:${xercesVersion}"
 	xsltcImplementation "org.apache.bcel:bcel:${bcelVersion}"
 	xsltcImplementation "edu.princeton.cup:java-cup:${javacupVersion}"
 	testImplementation "junit:junit:${junitVersion}"
