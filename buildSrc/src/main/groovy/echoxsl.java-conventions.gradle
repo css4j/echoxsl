@@ -10,7 +10,7 @@ repositories {
 }
 
 group = 'com.github.css4j'
-version = '2.7.3'
+version = '2.7.3.1'
 
 java {
 	sourceCompatibility = JavaVersion.VERSION_1_7
