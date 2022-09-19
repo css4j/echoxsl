@@ -4,9 +4,10 @@
    =========================================================================
 
    This software is a fork of Apache Xalan (Xalan XSLT processor and serializer)
-   Copyright 1999-2019 The Apache Software Foundation
+   Copyright 1999-2022 The Apache Software Foundation
    
-   The copyright of contributions after April 10, 2022 belongs to contributors.
+   The copyright of non-ASF contributions after April 10, 2022 belongs to
+   contributors.
 
    This product includes software developed at
    The Apache Software Foundation (http://www.apache.org/).
