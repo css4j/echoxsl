@@ -28,6 +28,7 @@ dependencies {
 jar {
 	// Remove this once Xerces is fixed and a module-info can be used
     manifest {
+      attributes('Main-Class': 'org.apache.xalan.xslt.Process')
       attributes('Automatic-Module-Name': 'com.github.css4j.echoxsl')
     }
 }
