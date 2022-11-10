@@ -31,6 +31,7 @@ tasks.withType(Javadoc) {
 }
 
 tasks.register('lineEndingConvCopy', CRLFConvertCopy) {
+	description 'Convert LICENSE and NOTICE to Windows line endings'
 	from "$rootDir/LICENSE.txt"
 	from "$rootDir/NOTICE.txt"
 }
@@ -51,10 +52,10 @@ tasks.withType(AbstractArchiveTask).configureEach {
 	reproducibleFileOrder = true
 	// Copy license file
 	dependsOn lineEndingConvCopy
-	from ('build/tmp/crlf/LICENSE.txt') {
+	from ("$buildDir/tmp/crlf/LICENSE.txt") {
 		into 'META-INF'
 	}
-	from ('build/tmp/crlf/NOTICE.txt') {
+	from ("$buildDir/tmp/crlf/NOTICE.txt") {
 		into 'META-INF'
 	}
 }
