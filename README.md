@@ -1,14 +1,18 @@
 # EchoXSL
 
+## Note: this repository has been archived
+
  EchoXSL is a fork of Apache Xalan, an XSLT processor.
 
- Beware that this software is only maintained for compatibility purposes. Java
+ Beware that this software was only maintained for compatibility purposes. Java
 has built-in XSLT support, and [Saxonica](http://saxon.sourceforge.net/) has a
 more complete XSL and XPath implementation (with an open source subset called
 _Saxon HE_).
 
- You should only look at this project if you are willing to replace Apache Xalan
-with something API-compatible.
+ ~~You should only look at this project if you are willing to replace Apache Xalan
+with something API-compatible.~~
+
+**This project is no longer used by EchoSVG and was archived**
 
 <br/>
 
